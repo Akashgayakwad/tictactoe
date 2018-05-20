@@ -1,0 +1,125 @@
+body{font-family: fantasy , serif;
+     height: auto;
+}
+.container-fluid{
+    background-color: rgba(0,0,0,0.2);
+}
+button{
+    width: auto;
+}
+.header{
+    font-weight: 300;
+    color: blueviolet;
+    text-align: center;
+    text-decoration-color: blueviolet;
+    font-size: 40px;
+}
+.score1{
+    color: rgb(221,116,66);
+    background: rgba(122,245,132,0.6);
+    padding: 5px;
+    border: 2px solid rgb(7,90,14);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 15%;
+    text-align: center;
+    width: auto;
+}
+.score2{
+    color: rgb(221,116,66);
+    background: rgba(122,245,132,0.6);
+    padding: 5px;
+    border: 2px solid rgb(7,90,14);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 15%;
+    text-align: center;
+    width: auto;
+}
+
+@media only screen and (max-width:600px){
+
+    #instructions{
+        position: absolute;
+        top:0%;
+        left:0%;
+        border: 3px yellow groove;
+        background-color: blanchedalmond;
+        display: none;
+        width: 100%;
+        z-index: 2;
+    }
+}
+
+#instructions{
+    position: absolute;
+    top:0%;
+    left:0%;
+    border: 3px yellow groove;
+    background-color: blanchedalmond;
+    display: none;
+    width: 100%;
+    z-index: 2;
+}
+.gameboard{
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background: linear-gradient(rgba(208,181,140,1),rgba(221,202,172,1));
+    margin: 10px;
+}
+.gamecontainer{
+    margin-top: 100px;
+    border-radius: 5%;
+}
+.entries{
+    padding-top: 20%;
+    padding-bottom: 80%;
+    height:0px;
+    font-size: 60px;
+    text-align: center;
+}
+#entry1{
+border-right: 7px black solid;
+border-bottom: 7px black solid;
+}
+#entry2{
+border-right: 7px black solid;
+border-bottom: 7px black solid;
+border-left: 7px black solid;
+}
+#entry3{
+border-bottom: 7px black solid;
+border-left: 7px black solid;
+}
+#entry4{
+border-right: 7px black solid;
+border-bottom: 7px black solid;
+border-top: 7px black solid;
+}
+#entry5{
+border-right: 7px black solid;
+border-bottom: 7px black solid;
+border-top: 7px black solid;
+border-left: 7px black solid;
+}
+#entry6{
+border-bottom: 7px black solid;
+border-top: 7px black solid;
+border-left: 7px black solid;
+}
+#entry7{
+border-right: 7px black solid;
+border-top: 7px black solid;
+}
+#entry8{
+border-right: 7px black solid;
+border-top: 7px black solid;
+border-left: 7px black solid;
+}
+#entry9{
+border-top: 7px black solid;
+border-left: 7px black solid;
+}
